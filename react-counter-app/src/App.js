@@ -23,9 +23,8 @@ function App() {
       <div className="bg-white flex justify-center gap-12 py-3 rounded-sm text-[25px] text-[#473f3fb0]">
 
         <button onClick={decreaseHandler} className="border-r-2 text-center w-20 border-[#bfbfbf] text-5xl">
-          -
+         -
         </button>
-
         <div className="font-bold gap-12 text-5xl">
           {counter}
         </div>
@@ -34,6 +33,7 @@ function App() {
           +
         </button>
       </div>
+    
       <button onClick={resetHandler} className="bg-[#c32323fb] text-white px-5 py-2 rounded-sm border-r-amber-950 text-lg capitalize">reset</button>
     </div>
   );
